@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">MyPortofolio</h1>
+            <div class="space-x-6">
+                <a href="#biodata" class="hover:text-blue-500 font-medium">Biodata</a>
+                <a href="#skill" class="hover:text-blue-500 font-medium">Skill</a>
+                <a href="#aplikasi" class="hover:text-blue-500 font-medium">Aplikasi</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Biodata -->
+    <section id="biodata" class="h-screen flex items-center justify-center bg-gray-100">
+        <div class="max-w-3xl px-4 text-center">
+            <h2 class="text-3xl font-semibold mb-6">Biodata</h2>
+
+            <!-- Foto Profil -->
+            <div class="mb-6">
+                <img src="https://i.pravatar.cc/150?img=3" alt="Foto Profil"
+                    class="mx-auto rounded-full w-32 h-32 shadow-md">
+            </div>
+
+            <!-- Deskripsi Singkat -->
+            <p class="text-gray-600 mb-6">
+                Saya adalah seorang web developer dengan fokus pada pengembangan aplikasi berbasis web menggunakan
+                teknologi modern seperti Laravel dan Tailwind CSS.
+            </p>
+
+            <!-- Kotak Biodata -->
+            <div class="bg-white p-6 rounded-lg shadow text-left space-y-2">
+                <p><strong>Nama:</strong> Ade Tirta Adrianta</p>
+                <p><strong>Alamat:</strong> Jakarta, Indonesia</p>
+                <p><strong>Pendidikan:</strong> S1 Teknik Informatika, Universitas Esa Unggul</p>
+                <p><strong>Instagram:</strong> S1 Teknik Informatika, Universitas Esa Unggul</p>
+                <p><strong>Twitter:</strong> S1 Teknik Informatika, Universitas Esa Unggul</p>
+
+                <!-- <p><strong>Email:</strong> <a href="mailto:atirtaadrianta@gmail.com"
+                        class="text-blue-500 hover:underline">atirtaadrianta@gmail.com</a></p>
+                <p><strong>Telepon:</strong> +62 89654553167</p> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skill -->
+    <section id="skill" class="h-screen flex items-center justify-center bg-white">
+        <div class="max-w-4xl px-4 text-center">
+            <h2 class="text-3xl font-semibold mb-6">Skill</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+
+                <!-- Skill Item -->
+                <div class="bg-blue-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="HTML">
+                    <p class="font-semibold">HTML</p>
+                </div>
+
+                <div class="bg-green-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="CSS">
+                    <p class="font-semibold">CSS</p>
+                </div>
+
+                <div class="bg-yellow-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="JavaScript">
+                    <p class="font-semibold">JavaScript</p>
+                </div>
+
+                <div class="bg-indigo-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="Tailwind CSS">
+                    <p class="font-semibold">Tailwind CSS</p>
+                </div>
+
+                <div class="bg-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="Laravel">
+                    <p class="font-semibold">Laravel</p>
+                </div>
+
+                <div class="bg-red-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                        class="w-12 h-12 mx-auto mb-2" alt="MySQL">
+                    <p class="font-semibold">MySQL</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Aplikasi -->
+    <section id="aplikasi" class="h-screen flex items-center justify-center bg-gray-100">
+        <div class="max-w-4xl px-4 text-center">
+            <h2 class="text-3xl font-semibold mb-6">Aplikasi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-xl font-bold">Aplikasi 1</h3>
+                    <p class="text-sm text-gray-600">Deskripsi singkat aplikasi pertama.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-xl font-bold">Aplikasi 2</h3>
+                    <p class="text-sm text-gray-600">Deskripsi singkat aplikasi kedua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-6 shadow-inner mt-10">
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+    <!-- Carousel Script -->
+    <script>
+        let currentIndex = 0;
+        const carousel = document.getElementById('carousel');
+        const totalSlides = carousel.children.length;
+
+        function updateSlide() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateSlide();
+        }
+    </script>
+
+</body>
+
+</html>
